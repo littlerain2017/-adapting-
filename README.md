@@ -1,6 +1,6 @@
 # -adapting-
 
-短剧创作 Claude Code Skills 仓库。
+短剧与电影剧本创作 Claude Code Skills 仓库。
 
 ## Skills
 
@@ -11,6 +11,7 @@
 | [drama-evaluator](skills/drama-evaluator/) | 评估故事改编为短剧的潜力与市场竞争力 |
 | [drama-workflow](skills/drama-workflow/) | 协调长文本的改编分析流程（并行分析 + 结果整合） |
 | [drama-adaptation](skills/drama-adaptation/) | 将短剧改编为院线电影或20分钟剧集 |
+| [screenplay-evaluator](skills/screenplay-evaluator/) | 依据好莱坞 Script Coverage 标准评估院线电影剧本，输出 Pass/Consider/Recommend 评级 |
 
 ## 安装
 
@@ -22,5 +23,5 @@ git clone https://github.com/littlerain2017/-adapting-.git
 cp -r -adapting-/skills/* ~/.claude/skills/
 
 # 或单独安装某个
-cp -r -adapting-/skills/drama-creator ~/.claude/skills/drama-creator
+cp -r -adapting-/skills/screenplay-evaluator ~/.claude/skills/screenplay-evaluator
 ```
